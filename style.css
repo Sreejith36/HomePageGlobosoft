@@ -1,0 +1,152 @@
+:root {
+    --color1: white;
+    --color2: black;
+
+    --bgcolor1: #b30000;
+    --bordercolor: #D3D3D3;
+
+    --textcolor1: #606060;
+}
+
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+i, ul li a {
+    text-decoration: none;
+    color: var(--color2)
+}
+
+.celebrate {
+    text-align: center;
+    background-color: var(--bgcolor1);
+    color: var(--color1);
+    padding: 8px 0;
+    
+}
+
+.top-second{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--bordercolor);
+    padding: 5px 0;
+}
+
+.icons {
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.tollfree {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.tollfree ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.tollfree ul li {
+    margin: 0;
+    margin-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid var(--color2);
+    font-size: 13.5px;
+}
+
+.tollfree ul li a{
+    text-decoration: none;
+    color: var(--textcolor1)
+
+}
+
+.top-third {
+    display: flex;
+    align-items: center;
+    padding: 5px 80px;
+}
+
+.globosoft img {
+    width: 10em;
+}
+
+.home ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+.home ul li{
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+.contact {
+    border: 2px solid var(--color2);
+    padding: 10px 24px;
+    margin-left: 200px;
+}
+
+.contact:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.mid-one {
+    height: 100vh;
+    background-image: url('https://globosoft.in/images/homepage/globosoft-banner.webp');
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 140px 110px;
+}
+
+.we-provide {
+    width: 70%;
+}
+
+
+
+.line1 {
+    font-size: 55px;
+    color: white;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.line2 {
+    font-size: 23px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.enquire {
+    border: 2px solid white;
+    padding: 16px 32px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.enquire-side{
+    position: fixed;
+    top: 250px;
+    right: -70px;
+    padding: 10px 40px;
+    
+    background-color: var(--bgcolor1);
+    color: white;
+    transform: rotateZ(-90deg);
+}
+
